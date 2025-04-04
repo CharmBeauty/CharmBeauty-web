@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charmbeauty - Maquillaje de Calidad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Charmbeauty</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#bloomshell">Bloomshell</a>
+            <a href="#trendy">Trendy</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#" id="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+                <img src="img/carrito-icon.png" alt="carrito-icon">
+            </a>
+        </nav>
+        
+    </header>
+
+    <!-- Banner de imágenes -->
+    <div class="banner-imagenes">
+        <img src="img/maquillaje1.jpg" alt="Maquillaje profesional">
+        <img src="img/maquillaje2.jpg" alt="Productos Charmbeauty">
+        <img src="img/maquillaje3.jpg" alt="Tendencia 2025">
+    </div>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="inicio">
+        <h2>Maquillaje de Calidad Importado desde Colombia</h2>
+        <div class="texto-justificado">
+            <p>En <strong>Charmbeauty</strong> ofrecemos productos profesionales de las marcas <strong>Bloomshell</strong> y <strong>Trendy</strong>, diseñados para brindarte una pigmentación intensa, texturas suaves y una duración prolongada. Desde labiales vibrantes hasta sombras hipnotizantes, cada producto está creado para realzar tu belleza con un acabado impecable.</p>
+            
+            <h3>💄 ¿Por qué elegirnos?</h3>
+            <ul>
+                <li> Productos profesionales con ingredientes de primera.</li>
+                <li> Colores vibrantes que se adaptan a todos los tonos de piel.</li>
+                <li> Larga duración para que tu look se mantenga impecable todo el día.</li>
+                <li> Tendencia y estilo con las últimas novedades del maquillaje.</li>
+            </ul>
+            
+            <p class="destacado">¡Visítanos y transforma tu rutina de belleza con Charmbeauty! ✨</p>
+            
+            <div class="hashtags">
+                #MaquillajeProfesional #BellezaSinLímites #Charmbeauty #Trendy #Bloomshell
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Bloomshell -->
+    <section id="bloomshell" class="marca">
+        <h2>Bloomshell</h2>
+        <div class="productos-grid" data-id="base-2en1">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="img/base-2en1.jpg" alt="Base 2 en 1">
+                <h3>Base 2 en 1</h3>
+                <p class="precio">$8</p>
+            </div>
+            
+            <!-- Producto 2 -->
+            <div class="producto" data-id="polvo-2en1">
+                <img src="img/polvo-2en1.jpg" alt="Polvo 2 en 1">
+                <h3>Polvo 2 en 1</h3>
+                <p class="precio">$6</p>
+            </div>
+            
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="img/contorno.jpg" alt="Contorno en barra">
+                <h3>Contorno</h3>
+                <p class="precio">$5</p>
+            </div>
+            
+            <!-- Producto 4 -->
+            <div class="producto">
+                <img src="img/rubor-gelei.jpg" alt="Rubor Gelei">
+                <h3>Rubor Gelei</h3>
+                <p class="precio">$3.50</p>
+            </div>
+            
+            <!-- Producto 5 -->
+            <div class="producto">
+                <img src="img/rubor-pink.jpg" alt="Rubor Pink">
+                <h3>Rubor Pink</h3>
+                <p class="precio">$4</p>
+            </div>
+            
+            <!-- Producto 6 -->
+            <div class="producto">
+                <img src="img/rubor-luminoso.jpg" alt="Rubor Luminoso">
+                <h3>Rubor Luminoso</h3>
+                <p class="precio">$4</p>
+            </div>
+            
+            <!-- Producto 7 -->
+            <div class="producto">
+                <img src="img/bloom-definer.jpg" alt="Bloom Definer">
+                <h3>Bloom Definer</h3>
+                <p class="precio">$2</p>
+            </div>
+            
+            <!-- Producto 8 -->
+            <div class="producto">
+                <img src="img/lash-invisible.jpg" alt="Lash Invisible">
+                <h3>Lash Invisible</h3>
+                <p class="precio">$3</p>
+            </div>
+            
+            <!-- Producto 9 -->
+            <div class="producto">
+                <img src="img/lash-exclusive.jpg" alt="Lash Exclusive">
+                <h3>Lash Exclusive</h3>
+                <p class="precio">$5</p>
+            </div>
+            
+            <!-- Producto 10 -->
+            <div class="producto">
+                <img src="img/lapiz-blanco.jpg" alt="Lápiz Blanco">
+                <h3>Lápiz Blanco</h3>
+                <p class="precio">$1.50</p>
+            </div>
+            
+            <!-- Producto 11 -->
+            <div class="producto">
+                <img src="img/lapiz-negro.jpg" alt="Lápiz Negro">
+                <h3>Lápiz Negro</h3>
+                <p class="precio">$1.50</p>
+            </div>
+            
+            <!-- Producto 12 -->
+            <div class="producto">
+                <img src="img/sombra-cobre.jpg" alt="Sombra Suelta (Cobre)">
+                <h3>Sombra Suelta (Cobre)</h3>
+                <p class="precio">$3</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Trendy -->
+    <section id="trendy" class="marca">
+        <h2>Trendy</h2>
+        <div class="productos-grid trendy-grid">
+            <!-- Fila 1 -->
+            <div class="producto">
+                <img src="img/base-aqua.jpg" alt="Base Aqua">
+                <h3>Base Aqua</h3>
+                <p class="precio">$8</p>
+            </div>
+            <div class="producto">
+                <img src="img/corrector-magic.jpg" alt="Corrector Magic">
+                <h3>Corrector Magic</h3>
+                <p class="precio">$7</p>
+            </div>
+            <div class="producto">
+                <img src="img/corrector-mini.jpg" alt="Corrector Magic Mini">
+                <h3>Corrector Magic Mini</h3>
+                <p class="precio">$2.50</p>
+            </div>
+            <div class="producto">
+                <img src="img/corrector-rebel.jpg" alt="Corrector Rebel">
+                <h3>Corrector Rebel</h3>
+                <p class="precio">$3</p>
+            </div>
+            <div class="producto">
+                <img src="img/rubor-crema.jpg" alt="Rubor en Crema">
+                <h3>Rubor en Crema</h3>
+                <p class="precio">$3</p>
+            </div>
+    
+            <!-- Fila 2 -->
+            <div class="producto">
+                <img src="img/rubor-barra.jpg" alt="Rubor en Barra">
+                <h3>Rubor en Barra</h3>
+                <p class="precio">$3</p>
+            </div>
+            <div class="producto">
+                <img src="img/rubor-pink-trendy.jpg" alt="Rubor Pink">
+                <h3>Rubor Pink</h3>
+                <p class="precio">$3</p>
+            </div>
+            <div class="producto">
+                <img src="img/puppy-palet.jpg" alt="Puppy Palet">
+                <h3>Puppy Palet</h3>
+                <p class="precio">$3.50</p>
+            </div>
+            <div class="producto">
+                <img src="img/bronzer-polvo.jpg" alt="Bronzer en polvo">
+                <h3>Bronzer en polvo</h3>
+                <p class="precio">$3</p>
+            </div>
+            <div class="producto">
+                <img src="img/iluminador-donut.jpg" alt="Iluminador Donut">
+                <h3>Iluminador Donut</h3>
+                <p class="precio">$2.50</p>
+            </div>
+    
+            <!-- Fila 3 -->
+            <div class="producto">
+                <img src="img/polvo-compacto.jpg" alt="Polvo Compacto">
+                <h3>Polvo Compacto</h3>
+                <p class="precio">$3</p>
+            </div>
+            <div class="producto">
+                <img src="img/polvo-suelto.jpg" alt="Polvo Suelto">
+                <h3>Polvo Suelto</h3>
+                <p class="precio">$4</p>
+            </div>
+            <div class="producto">
+                <img src="img/pestanina-pastel.jpg" alt="Pestañina Pastel">
+                <h3>Pestañina Pastel</h3>
+                <p class="precio">$3.50</p>
+            </div>
+            <div class="producto">
+                <img src="img/pestanina-boom.jpg" alt="Pestañina Boom">
+                <h3>Pestañina Boom</h3>
+                <p class="precio">$3.50</p>
+            </div>
+            <div class="producto">
+                <img src="img/pestanina-poodle.jpg" alt="Pestañina Poodle">
+                <h3>Pestañina Poodle</h3>
+                <p class="precio">$3.50</p>
+            </div>
+    
+            <!-- Fila 4 -->
+            <div class="producto">
+                <img src="img/sombras-chocolate.jpg" alt="Sombras Chocolate">
+                <h3>Sombras Chocolate</h3>
+                <p class="precio">$3</p>
+            </div>
+            <div class="producto">
+                <img src="img/sombras-meow.jpg" alt="Sombras Meow">
+                <h3>Sombras Meow</h3>
+                <p class="precio">$3.50</p>
+            </div>
+            <div class="producto">
+                <img src="img/paleta-iluminadores.jpg" alt="Paleta de iluminadores">
+                <h3>Paleta de iluminadores</h3>
+                <p class="precio">$5</p>
+            </div>
+            <div class="producto">
+                <img src="img/sombras-puppy.jpg" alt="Sombras Puppy">
+                <h3>Sombras Puppy</h3>
+                <p class="precio">$5</p>
+            </div>
+            <div class="producto">
+                <img src="img/gloss-tint.jpg" alt="Gloss Tint">
+                <h3>Gloss Tint</h3>
+                <p class="precio">$3</p>
+            </div>
+    
+            <!-- Fila 5 -->
+            <div class="producto">
+                <img src="img/retro-gloss.jpg" alt="Retro Gloss">
+                <h3>Retro Gloss</h3>
+                <p class="precio">$1.50</p>
+            </div>
+            <div class="producto">
+                <img src="img/smoothie-lips.jpg" alt="Smoothie Lips">
+                <h3>Smoothie Lips</h3>
+                <p class="precio">$3</p>
+            </div>
+            <div class="producto">
+                <img src="img/gloss-forever.jpg" alt="Gloss Forever">
+                <h3>Gloss Forever</h3>
+                <p class="precio">$1</p>
+            </div>
+            <div class="producto">
+                <img src="img/mini-matte.jpg" alt="Mini Matte">
+                <h3>Mini Matte</h3>
+                <p class="precio">$2</p>
+            </div>
+            <div class="producto">
+                <img src="img/redvelvet-lipstick.jpg" alt="Redvelvet Lipstick">
+                <h3>Redvelvet Lipstick</h3>
+                <p class="precio">$2.50</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+<section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <div class="info-contacto">
+        <p>📧 Email: <a href="mailto:robl.salazar1025@gmail.com">robl.salazar1025@gmail.com</a></p>
+        <p>📱 Instagram: <a href="https://instagram.com/charmbeautypf" target="_blank">@charmbeautypf</a></p>
+        <p>💬 WhatsApp: <a href="https://wa.me/584246330398" target="_blank">+58 424 6330398</a></p>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Charmbeauty - Todos los derechos reservados</p>
+        <p>Programacion by Robert Salazar</p>
+        <div class="contador-visitas">
+            <span id="contador">0</span> views
+        </div>
+    </footer>
+
+    <!-- Modal de Producto -->
+    <div id="producto-modal" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">&times;</span>
+            <div class="modal-body">
+                <img id="modal-imagen" src="" alt="Producto">
+                <div class="modal-texto">
+                    <h2 id="modal-titulo"></h2>
+                    <p id="modal-precio" class="precio-modal"></p>
+                    <p id="modal-descripcion"></p>
+                    <button id="btn-añadir-carrito" class="btn-whatsapp">
+                        <i class="fas fa-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Modal del Carrito -->
+  <div id="carrito-modal" class="modal">
+    <div class="modal-contenido">
+        <span class="cerrar-carrito">&times;</span>
+        <div class="modal-body">
+            <h2>Tu Carrito</h2>
+            <div id="carrito-lista" class="carrito-lista"></div>
+            <div class="carrito-total">
+                <span>Total:</span>
+                <span id="carrito-total">$0.00</span>
+            </div>
+            <a id="whatsapp-carrito" href="#" target="_blank" class="btn-whatsapp">
+                <i class="fab fa-whatsapp"></i> Completar pedido por WhatsApp
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+<!-- Tu archivo JavaScript -->
+<script src="script.js"></script>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
