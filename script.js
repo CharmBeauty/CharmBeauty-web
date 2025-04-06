@@ -79,7 +79,7 @@ const productos = {
             imagen: "img/lash-invisible.jpg",
             precio: "$3",
             descripcion: "Máscara de pestaña Bloom lash que nos ayuda a crear un efecto natural creando una curva ligera sin añadir color. Se aplica como un gel suave y ligero que te aportará fortaleza y contiene colágena.",
-            agotado: false
+            agotado: true
         },
         "Lash Exclusive": {
             imagen: "img/lash-exclusive.jpg",
