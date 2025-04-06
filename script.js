@@ -274,11 +274,11 @@ function mostrarProductos() {
             productoElement.className = `producto ${datos.agotado ? 'agotado' : ''}`;
             
             productoElement.innerHTML = `
-                <img src="${datos.imagen}" alt="${nombre}">
-                <h3>${nombre}</h3>
-                <p class="precio">${datos.precio}</p>
-                ${datos.agotado ? '<span class="badge-agotado">AGOTADO</span>' : ''}
-            `;
+            <img src="${datos.imagen}" alt="${nombre}">
+            <h3>${nombre}</h3>
+            <p class="precio">${datos.precio}</p>
+            ${datos.agotado ? '<span class="badge-agotado" style="color: #ff0000; font-weight: bold; background: transparent;">AGOTADO</span>' : ''}
+        `;
             
             if (!datos.agotado) {
                 productoElement.addEventListener('click', () => {
